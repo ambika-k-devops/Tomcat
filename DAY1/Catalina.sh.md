@@ -1,5 +1,8 @@
 In Apache Tomcat, **Catalina** is the **servlet container** component responsible for handling servlets and JSP (JavaServer Pages). It is the **core engine** of Tomcat and implements the **Servlet Specification**.
 
+sh catalina.sh start
+sh catalina.sh stop
+
 ### Key Concepts of Catalina in Tomcat:
 
 * **Catalina** is the heart of Tomcat. When you start Tomcat, it's actually the `org.apache.catalina.startup.Bootstrap` class that bootstraps Catalina.
