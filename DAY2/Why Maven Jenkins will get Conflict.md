@@ -52,3 +52,25 @@ They don’t conflict **by nature**, but **port conflicts or misconfigurations**
 * Make sure Maven is properly configured in Jenkins under **"Global Tool Configuration"**.
 
 ---
+Your outline is mostly clear, but it can be improved for better readability and professionalism. Here's a revised version:
+
+---
+
+* **Configuration files:**
+
+  * `tomcat-users.xml`: Add or remove users.
+  * `server.xml`: Modify server settings such as port number.
+
+    * Example:
+
+      * **Line 71**
+      * `Connector port="8080"`
+      * Change to `9090` to avoid port conflict with other tools.
+
+---
+
+### Suggestions:
+
+* Use consistent formatting for filenames and keys (`code formatting` for files and parameters).
+* Use clear and concise phrases instead of fragmented notes.
+* Include context when mentioning things like "line 71" — explain what it refers to if possible.
